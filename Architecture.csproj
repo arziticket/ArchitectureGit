@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\assets\**" />
+    <Compile Remove="wwwroot\DesignStudio\**" />
+    <Content Remove="wwwroot\assets\**" />
+    <Content Remove="wwwroot\DesignStudio\**" />
+    <EmbeddedResource Remove="wwwroot\assets\**" />
+    <EmbeddedResource Remove="wwwroot\DesignStudio\**" />
+    <None Remove="wwwroot\assets\**" />
+    <None Remove="wwwroot\DesignStudio\**" />
+  </ItemGroup>
+
+</Project>
