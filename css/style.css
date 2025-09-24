@@ -235,6 +235,13 @@ h6,
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
 }
+.page-headerIndex {
+    background: url(../img/mainheader.png) center center no-repeat;
+    background-size: cover;
+    min-height: 80vh; /* takes 80% of screen height */
+    display: flex;
+    align-items: center;
+}
 
 .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
